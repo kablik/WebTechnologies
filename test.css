@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    background-color: aliceblue;
+    min-width: 70rem;
+    left: 0;
+    top: 0;
+    padding-left: 20rem;
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+#sidebarBTN{
+    display: none;
+}
+
+body > nav {
+    overflow: auto;
+    background-color: beige;
+    min-width: 15rem;
+    max-width: 20rem;
+    width: 20%;
+    margin-top: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+#hlavnaStranka{
+    width: 100%;
+    min-width: 55rem;
+}
+
+#galeria{
+    width: 50%;
+}
+
+#dotazy{
+    width: 50%;
+}
+
+#formular{
+    padding: 1%;
+}
+
+.vstup{
+    margin-bottom: 1%;
+}
+
+.popis{
+    padding-left: 1rem;
+    width: 50%;
+}
+
+.navStranky, .obsahMain {
+    padding: 1%;
+}
+
+.tlacidlo{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.mapa > a{
+    text-decoration: none;
+    color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: royalblue;
+    font-weight: bold;
+}
+
+h3{
+ padding-left: 5%;
+}
+
+#pocasie {
+    width: 90%;
+    margin: 5%;
+}
+
+#pocasieLong {
+    width: 90%;
+    margin: 5%;
+}
+
+td {
+    width: 10em;
+    font-size: small;
+}
+
+li{
+    font-size: small;
+}
+
+.headOfTable{
+    border-bottom: double;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.obrazky1, .obrazky2{
+    float: left;
+    width: 30%;
+    padding: 1%;
+    min-width: 30em;
+}
+
+.clear{
+    clear: both;
+}
+
+h4{
+    margin: 0;
+}
+
+#anketaHeader{
+    padding-left: 0%;
+}
+
+.vyber{
+    margin-left: 5%;
+}
+
+
+
+
+
+
