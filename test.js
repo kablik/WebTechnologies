@@ -23,6 +23,31 @@ function myFunctionElse() {
     document.getElementById("dotazy").style.display = "inline";
 }
 
+function myFunctionMainSmall() {
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("hlavnaStranka").style.display = "inline";
+    document.getElementById("galeria").style.display = "none";
+    document.getElementById("dotazy").style.display = "none";
+}
+
+function myFunctionObrSmall() {
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("hlavnaStranka").style.display = "none";
+    document.getElementById("galeria").style.display = "inline";
+    document.getElementById("dotazy").style.display = "none";
+}
+
+function myFunctionElseSmall() {
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("hlavnaStranka").style.display = "none";
+    document.getElementById("galeria").style.display = "none";
+    document.getElementById("dotazy").style.display = "inline";
+}
+
+
+
+
+
 var tmplPoc = "<table><tr><td>Teplota:</td><td>{{main.temp}} °C</td></tr><tr><td>Tlak:</td><td>{{main.pressure}} hPa</td></tr><tr><td>Vlhkosť:</td><td>{{main.humidity}} %</td></tr><tr><td>Oblačnosť:</td><td>{{clouds.all}} %</td></tr></table>"
 
 $.getJSON("http://api.openweathermap.org/data/2.5/weather",
